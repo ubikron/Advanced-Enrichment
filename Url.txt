@@ -1,0 +1,1 @@
+[{"id":309,"name":"UNFURL - URL Paramaters Analysis","url":"https:// dfir.blog /unfurl/?url={value}","extractionRules":[{"typeName":"url"}],"enabled":true,"system":false},{"id":310,"name":"Carbon Dating - Webpage Creation Date","url":"https://carbondate.cs.odu.edu/#{value}","extractionRules":[{"typeName":"url"}],"enabled":true,"system":false}]

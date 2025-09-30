@@ -1,0 +1,1 @@
+[{"id":91532,"name":"Google Flight Number Info","url":"https://www.google.com/search?q={value}","extractionRules":[{"typeName":"Flight Number"}],"enabled":true,"system":false}]

@@ -1,0 +1,1 @@
+[{"id":91533,"name":"Bincheck - bank/card info","url":"https://bincheck.io/details/{value:spaceToNothing}","extractionRules":[{"typeName":"Bank Card Number"}],"enabled":true,"system":false}]
