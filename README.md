@@ -152,7 +152,7 @@ Here is a list of extractions that are not added to Ubikron by default, but are 
 | cin | Corporate Identification Number | \b[LUlu][0-9]{5}[A-Za-z]{2}[0-9]{4}[A-Za-z]{3}[0-9]{6}\b | U45203WB1995PTC074213  |
 
 
-PS: All of the extractions can be imported from this file:  [all_advanced_extractions.txt](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/all_advanced_extractions.txt).
+PS: All of the extractions can be imported from this file:  [all_advanced_extractions.txt](https://github.com/ubikron/Advanced-Enrichment/all_advanced_extractions.txt).
 
 ## I developed an online tool. Can I make Ubikron users use it with enrichments?
 
@@ -174,7 +174,7 @@ In this list, we tried to focus on tools that provide at least some of the infor
 ## Enrichments list 
 
 
-Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/all_advanced_extractions.txt) before importing enrichments files.
+Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/Advanced-Enrichment/all_advanced_extractions.txt) before importing enrichments files.
 
 
 ### VIN
@@ -186,7 +186,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | FaxVIN - Venicle Info | vin |  | https://www.faxvin.com/order/decoder?vin={value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/VIN.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/VIN.txt)
 
 
 
@@ -198,7 +198,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Aviation.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Aviation.txt)
 
 ### Maritime 
 
@@ -207,7 +207,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | SeaRates - Container Route and Vessel Info | marine-shipping-container-number |  | https://www.searates.com/container/tracking/?number={value}|
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Maritime.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Maritime.txt)
 
 
 ### Crypto 
@@ -221,7 +221,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | BlockPath - Transanctions list | crypto-address  |  | https://blockpath.com/search/addr?q={value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Crypto.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Crypto.txt)
 
 ### Bank card number
 
@@ -230,7 +230,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Bincheck - bank/card info | bank-card-number | Check bank and card information | https://bincheck.io/details/{value:spaceToNothing}  |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Bank_card_number.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Bank_card_number.txt)
 
 
 ### GEOINT
@@ -245,7 +245,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Ventusky - Weather History Map | gps-coordinates |  | https://www.ventusky.com/?p={value:noEndcoding};1800&l=temperature-2m |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/geoint.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/geoint.txt)
 
 
 ### Person Background 
@@ -269,7 +269,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | NameBerry - first name variation | name | When searching for mentions of the person of interest (on the social media page of a related person, in company chats, etc.), it is important to use different variations of their name. For example. John - Johnatan, Johny. In some countries, the first name may have dozens of variants  | https://nameberry.com/search?q={value:firstName} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Person_background.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Person_background.txt)
 
 
 
@@ -288,7 +288,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Google Documents Mentions | name |  | https://www.google.com/search?q=site%3Adocs.google.com%20inurl%3A%22%2Fd%2F%22%20%22{value}%22 |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/People_search_dorks.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/People_search_dorks.txt)
 
 
 ### Email 
@@ -302,7 +302,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Serif.ai - Email Variations Generator | email-address  | When searching for email information in data leaks and other sources, keep in mind that people often use email variants with extra dots to register multiple accounts to a single address. Look for different variants. | https://www.serif.ai/tools/gmail-generator?email={value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Email.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Email.txt)
 
 ### Alias 
 
@@ -314,7 +314,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Telegago Telegram CSE | alias  |  | https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20{value}&gsc.sort=date%22 |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Alias.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Alias.txt)
 
 ### Phone 
 
@@ -326,7 +326,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | CyberBackgroundChecks - People Search | phone |  | https://www.cyberbackgroundchecks.com/phone/{value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Phone.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Phone.txt)
 
 
 ### SOCMINT 
@@ -349,7 +349,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Reddit Mentions | hashtag,alias,name |  | https://www.reddit.com/search/?q=%23{value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Socmint.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Socmint.txt)
 
 
 ### Dating
@@ -360,7 +360,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Tinder Profile | alias |  | https://www.tinder.com/@{value}  |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Dating.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Dating.txt)
 
 
 ### Recruting
@@ -373,7 +373,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Linkedin People Search  | name  |  | https://www.linkedin.com/search/results/all/?keywords={value:firstName}%20{value:lastName} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Recruting.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Recruting.txt)
 
 ### Government 
 
@@ -390,7 +390,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | USA Arrests Records  | name |  Change California to state that you interested | https://california.arrests.org/search.php?fname={value:firstName}&lname={value:lastName}&fpartial=True |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Government.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Government.txt)
 
 
 
@@ -411,7 +411,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | ImportYeti Search | name  | 70 millions U. S. customs sea shipments records | https://www.importyeti.com/search?q={value:firstName}%20{value:lastName&page=1 |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Business.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Business.txt)
 
 
 ### TV/radio
@@ -425,7 +425,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Tv_radio.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Tv_radio.txt)
 
 
 
@@ -442,7 +442,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Newspapers.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Newspapers.txt)
 
 
 
@@ -456,7 +456,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | ResearchGate | doi |  | https://www.researchgate.net/search/publication?q={value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Science.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Science.txt)
 
 
 
@@ -475,7 +475,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Ghost Archive  | domain |  | https://ghostarchive.org/search?term={value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Archives.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Archives.txt)
 
 
 
@@ -492,7 +492,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Search_engines.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Search_engines.txt)
 
 
 ### Open directories/torrents
@@ -506,7 +506,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Open_directories_torrents.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Open_directories_torrents.txt)
 
 
 
@@ -524,7 +524,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Videos.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Videos.txt)
 
 
 ### Streaming
@@ -536,7 +536,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Trovo Search| name,alias,domain, hashtag |  | https://trovo.live/search?q={value} |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Streaming.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Streaming.txt)
 
 
 
@@ -549,7 +549,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Books.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Books.txt)
 
 
 ### Photos
@@ -562,7 +562,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Photos.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Photos.txt)
 
 
 ### Music
@@ -574,7 +574,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Deezer Search | name, alias, hashtag  |  | https://www.deezer.com/search/{value}  |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Music.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Music.txt)
 
 
 
@@ -596,7 +596,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | BigDomainData - Domain Lookup  | domain |  | https://www.bigdomaindata.com/whois/{value}  |
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Website.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Website.txt)
 
 
 ### Google vulnerable files search
@@ -617,7 +617,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 | Google - Config Files | domain |  | https://www.google.com/search?q=site:{value}%20ext:xml%20|%20ext:conf%20|%20ext:cnf%20|%20ext:reg%20|%20ext:inf%20|%20ext:rdp%20|%20ext:cfg%20|%20ext:txt%20|%20ext:ora%20|%20ext:ini  |
 | Google - Install/Setup files  | domain |  | https://www.google.com/search?q=site:{value}%20inurl:readme%20|%20inurl:license%20|%20inurl:install%20|%20inurl:setup%20|%20inurl:config  |
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Google_vulnerable_files_search.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Google_vulnerable_files_search.txt)
 
 
 ### URL 
@@ -629,7 +629,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Url.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Url.txt)
 
 ### IP 
 
@@ -650,7 +650,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Ip.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Ip.txt)
 
 
 ### Hash 
@@ -662,7 +662,7 @@ Please, first import [all_advanced_extractions.txt](https://github.com/ubikron/A
 
 
 
-[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Advanced-Enrichment/Hash.txt)
+[Load enrichments](https://github.com/ubikron/Advanced-Enrichment/Hash.txt)
 
 
 ------------------------------------------------
