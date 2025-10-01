@@ -52,8 +52,11 @@ A list of a couple hundred data enrichments for Ubikron (Next-generation OSINT t
 Ubikron is a Chrome Extension that add dozens of new features to your browser to make your intelligence work more efficient. It can automatically save page text and screenshots, extract key data (emails, phone numbers, usernames) and search for them in dozens of #osint tools. Analyse information and write reports using AI prompts. Actually, it has many other features.
 
 [Ubikron.com: How it works](https://www.ubikron.com/how-it-works)
+
 [Ubikron.com: Install](https://www.ubikron.com/install)
+
 [YouTube: Complete Video Tutorial](https://www.youtube.com/watch?v=zwb9V3N5iV0&t=4709s)
+
 
 
 ## What is "data type" and entity extraction?
@@ -104,7 +107,7 @@ You can export your enrichments list as a TXT file to import into your other pro
 
 Use the buttons in the bottom right corner to do this.
 
-To import all the enrichments mentioned in this list you can import one file: all_advanced_enrichments.txt (we can't link it here, else GitHub kicks the repo)
+To import all the enrichments mentioned in this list you can import one file: [all_advanced_enrichments.txt](all_advanced_enrichments.txt)
 
 
 ## Value functions
