@@ -49,6 +49,8 @@ A list of a couple hundred data enrichments for Ubikron (Next-generation OSINT t
 
 ## What is Ubikron?
 
+<img src='red-symbol-only128.png'>
+
 Ubikron is a Chrome Extension that add dozens of new features to your browser to make your intelligence work more efficient. It can automatically save page text and screenshots, extract key data (emails, phone numbers, usernames) and search for them in dozens of #osint tools. Analyse information and write reports using AI prompts. Actually, it has many other features.
 
 [Ubikron.com: How it works](https://www.ubikron.com/how-it-works)
@@ -175,7 +177,7 @@ In this list, we tried to focus on tools that provide at least some of the infor
 ## Enrichments list 
 
 
-Please, first import [all_advanced_extractions.txt](all_advanced_extractions.txt) before importing enrichments files.
+Please, first import [all_advanced_extractions.txt](all_advanced_extractions.txt) before importing enrichments files. Like discussed before, an enrichment works on a type. If the type is not available, the enrichment wont work. Most of the enrichements here work on system types, but some are working on their own type.
 
 
 ### VIN
